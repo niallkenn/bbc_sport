@@ -1,12 +1,38 @@
 #sport_header {
     background-color: #FFD230;
-    min-height: 100px;
 }
 
 #bbc_header {
     background-color: #FFFFFF;
     display: flex;
+    height: fit-content;
+    box-sizing: border-box;
+    border: 1px solid black;
+    padding: 0px 15px;
+    margin: 0;
+    align-items: center;
+    justify-content: space-between;
 }
 body {
     margin: 0;
+}
+
+#bbc_logo {
+    height: 30px;
+}
+
+#account_logo {
+    height: 20px;
+    /* margin-right: 5px; */
+    margin-left: 18px;
+}
+
+#logos_sign_in {
+    display: flex;
+    align-items: center;
+    width: 190px;
+}
+
+#sign_in {
+    margin-left: auto;
 }
