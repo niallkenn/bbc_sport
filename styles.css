@@ -1,8 +1,12 @@
-.header {
+#sport_header {
     background-color: #FFD230;
     min-height: 100px;
 }
 
+#bbc_header {
+    background-color: #FFFFFF;
+    display: flex;
+}
 body {
     margin: 0;
 }
