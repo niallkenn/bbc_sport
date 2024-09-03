@@ -1,5 +1,7 @@
 #sport_header {
     background-color: #FFD230;
+    display: flex;
+    flex-direction: column;
 }
 
 #bbc_header {
@@ -35,4 +37,12 @@ body {
 
 #sign_in {
     margin-left: auto;
+}
+
+#sport {
+    font-size: 37px;
+}
+
+#sport_items {
+    display: flex;
 }
